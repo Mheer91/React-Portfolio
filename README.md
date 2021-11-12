@@ -22,6 +22,8 @@ This app was built using the following technologies:
 - GH-Pages
 
 ## Screenshot
+<img width="1792" alt="Screen Shot 2021-11-12 at 6 03 06 PM" src="https://user-images.githubusercontent.com/80427770/141593449-55a28053-6024-4b97-aa5f-54927b59f4e8.png">
+
 
 ## Usage
 To use this app simply click on various links and they will render the components. Using the dev tools in your browser will allow you to look at this app in a mobile format. When mobile, click on the 3 lines to open the menu and the links will appear.
