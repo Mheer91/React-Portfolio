@@ -2,7 +2,7 @@
   "name": "dad",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Mheer91/React-Portfolio",
+  "homepage": "https://mheer91.github.io/React-Portfolio/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
