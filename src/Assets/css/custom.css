@@ -1,0 +1,26 @@
+.myName {
+    font-size: 100px;
+    transition: opacity 3s ease-in;
+    opacity: 1;
+}
+
+.transitionTrigger {
+    opacity: 0;
+}
+
+.myName2 {
+    color: rebeccapurple
+}
+
+.bgImg {
+    background-size: cover;
+    background-image:url("../Images/13324.jpg");
+    background-repeat: no-repeat;  
+}
+
+.textLoop {
+    font-size: larger;
+    font-weight: bold;
+    color: rebeccapurple;
+    text-decoration: overline 5px;
+}

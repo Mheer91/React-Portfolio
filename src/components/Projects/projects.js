@@ -11,7 +11,7 @@ import weather from '../../Assets/Images/weatherforecast.png';
 export default function Projects() {
     return (
         <Container>
-            <h1 className="text-white">Portfolio</h1>
+            <h1 className="text-white">Projects</h1>
             <Row className="justify-content-between pb-5">
                 <Card className="col-md-3 col-sm-12 bg-secondary text-white pt-1">
                     <Card.Img variant="top" src={fn} />

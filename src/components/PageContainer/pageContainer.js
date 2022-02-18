@@ -4,9 +4,11 @@ import Projects from '../Projects/projects';
 import Resume from '../Resume/resume';
 import ContactMe from '../ContactMe/contactme';
 import NavHeader from "../Navbar/navbar";
+import Landing from "../Landing/landing";
+import Footer from "../Footer/footer";
 
 export default function PageContainer() {
-    const [currentPage, setCurrentPage] = useState('Aboutme');
+    const [currentPage, setCurrentPage] = useState('Landing');
     const renderPage = () => {
         if (currentPage === 'Aboutme') {
             return <Aboutme />;
@@ -19,6 +21,9 @@ export default function PageContainer() {
         }
         if (currentPage === 'ContactMe') {
             return <ContactMe />
+        }
+        if (currentPage === "Landing") {
+            return <Landing />
         };
     }
     const pageChange = (page) => setCurrentPage(page);
@@ -26,6 +31,7 @@ export default function PageContainer() {
         <div>
             <NavHeader currentPage = {currentPage} pageChange = {pageChange} />
             {renderPage()}
+            <Footer />
         </div>
     )
 };

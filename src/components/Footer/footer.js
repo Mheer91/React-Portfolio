@@ -6,7 +6,7 @@ import {  faFacebookSquare, faLinkedin, faGithubSquare } from "@fortawesome/free
 
 export default function Footer(props){
     return (        
-        <Navbar bg="dark" fixed="bottom">
+        <Navbar fixed="bottom">
             <Container className="justify-content-center">
                 <Navbar.Brand href="https://github.com/Mheer91" target="_blank">
                 <FontAwesomeIcon icon={faGithubSquare} className="fa-2x" style={{ color: 'White'}}/>
