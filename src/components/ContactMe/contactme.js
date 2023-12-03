@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Container, Form } from "react-bootstrap";
+import { Container, Form, Button } from "react-bootstrap";
+import sendEmail from "./sendEmail";
 
 export default function ContactMe() {
     const [validated, setValidated] = useState(false);
@@ -9,6 +10,9 @@ export default function ContactMe() {
         if (form.checkValidity() === false) {
             event.preventDefault();
             event.stopPropagation();
+        }
+        else{
+            sendEmail()
         }
 
         setValidated(true);
@@ -38,6 +42,7 @@ export default function ContactMe() {
                     <Form.Control required type="text" as="textarea" rows={3} />
                     <Form.Control.Feedback type="invalid">Please enter a message!</Form.Control.Feedback>
                 </Form.Group>
+                <Button type="submit" variant="dark" onClick={handleSubmit}>Send!</Button>
             </Form>
         </Container>
 
